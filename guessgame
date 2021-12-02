@@ -11,3 +11,10 @@ MAX = 20
 
 targetNumber = random.randint(MIN, MAX)
 print(targetNumber)
+
+guess  = int(input("Guess?"))
+
+if guess == targetNumber:
+    print("Bingo")
+else:
+    print(f"answert is{targetNumber}")
